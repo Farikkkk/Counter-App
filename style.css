@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+  background-image: linear-gradient(to right, red, orange, white);
+  color: #fff;
+}
+
+.container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 50%;
+  margin-top: 20px;
+  justify-content: space-between;
+  box-shadow: 1px 1px 2px 2px black;
+  font-size: 3rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+button:hover {
+  background-color: rgb(97, 97, 135);
+  transition: 0.4s, ease-in-out;
+  transform: scale(1.1);
+}
+
+button:active {
+  background-color: pink;
+  transition: 0.3s, ease-in-out;
+}
+
+.counter {
+  font-size: 5rem;
+  padding: 10px 15px;
+  margin: 20px;
+  width: 400px;
+  height: 40px;
+  background-color: transparent;
+  color: rgb(236, 236, 216);
+}
+h1 {
+  padding: 20px;
+  margin-left: 30px;
+}
